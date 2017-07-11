@@ -43,7 +43,7 @@
 }
 - (NSArray *)dataArr{
     if (!_dataArr) {
-        _dataArr = @[@[@"WKWebView",@"WKWebViewVC"]];
+        _dataArr = @[@[@"WKWebView",@"WKWebViewVC"],@[@"绘制图形",@"DrawVC"]];
     }
     return _dataArr;
 }

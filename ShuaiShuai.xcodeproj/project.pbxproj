@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E116F021F14A9F3001453E4 /* DrawVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E116F011F14A9F3001453E4 /* DrawVC.m */; };
+		6E116F051F14AA13001453E4 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E116F041F14AA13001453E4 /* DrawView.m */; };
 		6E48A3C41F0E2B0700810544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48A3C31F0E2B0700810544 /* main.m */; };
 		6E48A3C71F0E2B0700810544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48A3C61F0E2B0700810544 /* AppDelegate.m */; };
 		6E48A3CA1F0E2B0700810544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48A3C91F0E2B0700810544 /* ViewController.m */; };
@@ -39,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E116F001F14A9F3001453E4 /* DrawVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawVC.h; sourceTree = "<group>"; };
+		6E116F011F14A9F3001453E4 /* DrawVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawVC.m; sourceTree = "<group>"; };
+		6E116F031F14AA13001453E4 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		6E116F041F14AA13001453E4 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		6E48A3BF1F0E2B0700810544 /* ShuaiShuai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuaiShuai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E48A3C31F0E2B0700810544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E48A3C51F0E2B0700810544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +95,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E116EFF1F14A9BA001453E4 /* 绘制图形 */ = {
+			isa = PBXGroup;
+			children = (
+				6E116F001F14A9F3001453E4 /* DrawVC.h */,
+				6E116F011F14A9F3001453E4 /* DrawVC.m */,
+				6E116F031F14AA13001453E4 /* DrawView.h */,
+				6E116F041F14AA13001453E4 /* DrawView.m */,
+			);
+			path = "绘制图形";
+			sourceTree = "<group>";
+		};
 		6E48A3B61F0E2B0700810544 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +129,7 @@
 		6E48A3C11F0E2B0700810544 /* ShuaiShuai */ = {
 			isa = PBXGroup;
 			children = (
+				6E116EFF1F14A9BA001453E4 /* 绘制图形 */,
 				6E48A3F71F0E2B4B00810544 /* BASE */,
 				6E48A3F51F0E2B2A00810544 /* WKWebView */,
 				6E48A3C51F0E2B0700810544 /* AppDelegate.h */,
@@ -312,7 +330,9 @@
 				6E48A4021F0E2D9300810544 /* WeakScriptMessageDelegate.m in Sources */,
 				6E48A3C71F0E2B0700810544 /* AppDelegate.m in Sources */,
 				6E48A3C41F0E2B0700810544 /* main.m in Sources */,
+				6E116F021F14A9F3001453E4 /* DrawVC.m in Sources */,
 				6E48A3FD1F0E2CBB00810544 /* WKWebViewVC.m in Sources */,
+				6E116F051F14AA13001453E4 /* DrawView.m in Sources */,
 				6E48A3FA1F0E2B6B00810544 /* BaseVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,6 +569,7 @@
 				6E48A3EE1F0E2B0700810544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E48A3EF1F0E2B0700810544 /* Build configuration list for PBXNativeTarget "ShuaiShuaiTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +578,7 @@
 				6E48A3F11F0E2B0700810544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E48A3F21F0E2B0700810544 /* Build configuration list for PBXNativeTarget "ShuaiShuaiUITests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +587,7 @@
 				6E48A3F41F0E2B0700810544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
